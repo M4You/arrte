@@ -10,15 +10,6 @@
             <directory>./tests</directory>
         </testsuite>
     </testsuites>
-    <coverage processUncoveredFiles="true">
-        <include>
-            <directory>./src</directory>
-        </include>
-        <report>
-            <html outputDirectory="coverage-report" />
-            <clover outputFile="coverage-report/clover.xml" />
-        </report>
-    </coverage>
     <logging>
         <junit outputFile="logs/junit.xml" />
         <testdoxHtml outputFile="logs/testdox.html" />
