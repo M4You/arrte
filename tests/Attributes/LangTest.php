@@ -1,9 +1,9 @@
 <?php
 
-namespace Arrte\Tests\Tags;
+namespace Arrte\Tests\Attributes;
 
-use Arrte\Attributes\Lang;
 use Arrte\LangCode;
+use Arrte\Attributes\Lang;
 use PHPUnit\Framework\TestCase;
 
 class LangTest extends TestCase
