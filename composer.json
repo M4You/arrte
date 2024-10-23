@@ -19,16 +19,16 @@
         "php": ">=8.1"
     },
     "require-dev": {
-        "phpunit/phpunit": "^9.5"
+        "phpunit/phpunit": "^10.5"
     },
     "autoload": {
         "psr-4": {
-            "M4You\\Arrte\\": "src/"
+            "Arrte\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "M4You\\Arrte\\Tests\\": "tests/"
+            "Arrte\\Tests\\": "tests"
         }
     },
     "config": {
